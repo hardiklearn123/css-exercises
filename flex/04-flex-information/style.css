@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*sol*/
+body {
+  text-align: center;
+}
+
+.hori {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.block {
+  max-width: 200px;
+}
+
+.title {
+  margin-bottom: 32px;
+}

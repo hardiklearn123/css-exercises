@@ -25,3 +25,52 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/*soln*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  background-color: #eee;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+button {
+  padding: 8px 16px;
+}
